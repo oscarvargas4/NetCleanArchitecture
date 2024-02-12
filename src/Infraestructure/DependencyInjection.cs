@@ -1,12 +1,11 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
 
-namespace Infraestructure
+namespace Infraestructure;
+public static class DependencyInjection
 {
-    public static class DependencyInjection
+    public static IServiceCollection AddInfraestructure(this IServiceCollection services)
     {
-        public static IServiceCollection AddInfraestructure(this IServiceCollection services)
-        {
-            return services;
-        }
+        return services;
     }
 }
+
