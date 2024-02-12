@@ -1,6 +1,6 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
 
-namespace Infraestructure;
+namespace Presentation;
 public static class DependencyInjection
 {
     public static IServiceCollection AddInfraestructure(this IServiceCollection services)
